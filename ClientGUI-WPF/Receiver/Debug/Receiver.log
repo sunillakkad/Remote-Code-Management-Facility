@@ -1,0 +1,34 @@
+﻿Build started 4/28/2015 11:55:23 PM.
+     1>Project "D:\Project4\ClientGUI-WPF\Receiver\Receiver.vcxproj" on node 4 (Rebuild target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D CODE_ANALYSIS /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /D TEST_RECEIVER /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze /analyze:plugin"C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\\bin\localespc.dll" /errorReport:prompt   /analyze:quiet ..\ApplicationHelpers\AppHelpers.cpp ..\BlockingQueue\BlockingQueue.cpp ..\Client1\Client1.cpp ..\Display\Display.cpp ..\FileSystem\FileSystem.cpp ..\Message\Message.cpp ..\Sender\Sender.cpp ..\Sockets\Sockets.cpp Receiver.cpp
+         Receiver.cpp
+         Sockets.cpp
+         Sender.cpp
+         Message.cpp
+         FileSystem.cpp
+         Display.cpp
+         Client1.cpp
+         BlockingQueue.cpp
+         AppHelpers.cpp
+         Running Code Analysis for C/C++...
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Project4\ClientGUI-WPF\Debug\Receiver.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\Project4\ClientGUI-WPF\Debug\Receiver.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Project4\ClientGUI-WPF\Debug\Receiver.lib" /MACHINE:X86 Debug\AppHelpers.obj
+         Debug\BlockingQueue.obj
+         Debug\Client1.obj
+         Debug\Display.obj
+         Debug\FileSystem.obj
+         Debug\Message.obj
+         Debug\Sender.obj
+         Debug\Sockets.obj
+         Debug\Receiver.obj
+         Receiver.vcxproj -> D:\Project4\ClientGUI-WPF\Debug\Receiver.exe
+     1>d:\project4\clientgui-wpf\filesystem\filesystem.cpp(307): warning C6282: Incorrect operator:  assignment of constant in Boolean context. Consider using '==' instead.
+     1>d:\project4\clientgui-wpf\filesystem\filesystem.cpp(401): warning C6102: Using 'st' from failed function call at line '400'.
+     1>d:\project4\clientgui-wpf\sockets\sockets.cpp(237): warning C6001: Using uninitialized memory 'ret'.
+     1>Done Building Project "D:\Project4\ClientGUI-WPF\Receiver\Receiver.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:03:25.28

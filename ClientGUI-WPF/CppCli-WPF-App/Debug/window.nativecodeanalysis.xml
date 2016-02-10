@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<DEFECTS><DEFECT><SFA><FILEPATH>D:\Project4\ClientGUI-WPF\CppCli-WPF-App\</FILEPATH><FILENAME>&lt;no file&gt;</FILENAME><LINE>0</LINE><COLUMN>0</COLUMN></SFA><DEFECTCODE>28204</DEFECTCODE><DESCRIPTION>'Add' : Only one of this override and the one at &lt;no file&gt;(0) are annotated for _Param_(1): both or neither must be annotated.</DESCRIPTION><FUNCTION></FUNCTION><DECORATED></DECORATED><FUNCLINE>0</FUNCLINE><PATH/></DEFECT></DEFECTS>
